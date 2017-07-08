@@ -1,0 +1,41 @@
+
+html {
+  font-size: 16px;
+}
+
+.d79 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+}
+
+h4 {
+    background-image: url("../images/d79-strip.png");
+    padding: 0.5rem;
+    background-size: cover;
+    text-align: right;
+    color: white;
+    font-family: "ultra", sans-serif;
+    font-size: 0.8rem;
+    padding-right: 2rem;
+}
+
+
+body {
+  background: linear-gradient(220deg, #ffffff, #ec36b5, #f5dc11, #41e8d3);
+  background-size: 800% 800%;
+
+  animation: d79 25s ease infinite;}
+
+  @keyframes d79 {
+      0%{background-position:0% 50%}
+      50%{background-position:100% 51%}
+      100%{background-position:0% 50%}
+  }
+}
+
+@font-face {
+    font-family: ultra;
+    src: url(C:\Users\WHITE-SONY\Desktop\GRAPHICS RESOURCES FROM ED);
+}
