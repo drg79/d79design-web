@@ -10,13 +10,19 @@ html {
     margin: 0;
 }
 
+h1 {
+  font-family: "ultra";
+  font-size: 40rem;
+  color: white;
+}
+
 h4 {
-    background-image: url("../images/d79-strip.png");
+
     padding: 0.5rem;
     background-size: cover;
     text-align: right;
     color: white;
-    font-family: "ultra", sans-serif;
+    font-family: "Geneva", sans-serif;
     font-size: 0.8rem;
     padding-right: 2rem;
 }
@@ -33,9 +39,4 @@ body {
       50%{background-position:100% 51%}
       100%{background-position:0% 50%}
   }
-}
-
-@font-face {
-    font-family: ultra;
-    src: url(C:\Users\WHITE-SONY\Desktop\GRAPHICS RESOURCES FROM ED);
 }
