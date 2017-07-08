@@ -11,21 +11,25 @@ html {
 }
 
 h1 {
-  font-family: "ultra";
-  font-size: 40rem;
+  font-family: "Ultra", serif;
+  font-size: 35rem;
   color: white;
+  margin-left: 5rem;
 }
 
 h4 {
-
-    padding: 0.5rem;
-    background-size: cover;
-    text-align: right;
-    color: white;
-    font-family: "Geneva", sans-serif;
-    font-size: 0.8rem;
-    padding-right: 2rem;
+  padding: 0.5rem;
+background-size: cover;
+text-align: right;
+color: white;
+font-family: "Geneva", sans-serif;
+font-size: 0.9rem;
+padding-right: 4rem;
+margin-top: 1rem;
+background-color: hsla(180, 20%, 50%, 0.5);
 }
+
+
 
 
 body {
@@ -39,4 +43,3 @@ body {
       50%{background-position:100% 51%}
       100%{background-position:0% 50%}
   }
-}
